@@ -19,19 +19,22 @@ class calsi{
 						 return a/b;
 						}
 				      } 
-					       */
-					       static int square(int a){
-						return a*a;
-						}
+					       
+						       static int square(int a){
+							return a*a;
+							}*/
+								static int cube(int a){
+							return a*a*a;
+							}
 			
-				 public static void main(String[] args){
-						 
-					  int a,b;
-					  Scanner obj=new Scanner(System.in);
-					  a=obj.nextInt();
-					  //b=obj.nextInt();
-					  	square(a);
-					  System.out.println(square(a));
+					 public static void main(String[] args){
+							 
+						  int a,b;
+						  Scanner obj=new Scanner(System.in);
+						  a=obj.nextInt();
+						  //b=obj.nextInt();
+						  	cube(a);
+						  System.out.println(cube(a));
 				}
 		}	
 				 
